@@ -1,0 +1,4 @@
+d:\documents\visual studio 2015\Projects\FrameWork\FrameWork.Core\bin\Debug\FrameWork.Core.dll
+d:\documents\visual studio 2015\Projects\FrameWork\FrameWork.Core\bin\Debug\FrameWork.Core.pdb
+d:\documents\visual studio 2015\Projects\FrameWork\FrameWork.Core\obj\Debug\FrameWork.Core.dll
+d:\documents\visual studio 2015\Projects\FrameWork\FrameWork.Core\obj\Debug\FrameWork.Core.pdb
