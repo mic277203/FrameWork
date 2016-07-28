@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace FrameWork.Data
 {
-    public class BusoppinformationConfiguration : EntityTypeConfiguration<busoppinformation>
+    public class BusoppinformationConfiguration : EntityTypeConfiguration<tbl_sys_information>
     {
         public BusoppinformationConfiguration()
         {

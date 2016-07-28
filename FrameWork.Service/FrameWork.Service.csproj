@@ -41,8 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\BusoppinformationService\IBusoppinformationService.cs" />
-    <Compile Include="Service\BusoppinformationService\BusoppinformationService.cs" />
+    <Compile Include="Service\InformationService\IInformationCategoryService.cs" />
+    <Compile Include="Service\InformationService\IInformationService.cs" />
+    <Compile Include="Service\InformationService\InformationCategoryService.cs" />
+    <Compile Include="Service\InformationService\InformationService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FrameWork.Data\FrameWork.Data.csproj">

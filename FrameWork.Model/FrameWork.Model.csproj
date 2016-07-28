@@ -40,7 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Domain\busoppinformation\busoppinformation.cs" />
+    <Compile Include="Domain\information\tbl_sys_infomationcategory.cs" />
+    <Compile Include="Domain\information\tbl_sys_information.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

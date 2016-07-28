@@ -29,11 +29,11 @@ namespace FrameWork.Web.App_Start
             builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerRequest();
             builder.RegisterType<DatabaseFactory>().As<IDatabaseFactory>().InstancePerRequest();
 
-            builder.RegisterAssemblyTypes(typeof(BusoppinformationRepository).Assembly)
+            builder.RegisterAssemblyTypes(typeof(InformationRepository).Assembly)
             .Where(t => t.Name.EndsWith("Repository"))
             .AsImplementedInterfaces().InstancePerRequest();
 
-            builder.RegisterAssemblyTypes(typeof(BusoppinformationService).Assembly)
+            builder.RegisterAssemblyTypes(typeof(InformationService).Assembly)
            .Where(t => t.Name.EndsWith("Service"))
            .AsImplementedInterfaces().InstancePerRequest();
 

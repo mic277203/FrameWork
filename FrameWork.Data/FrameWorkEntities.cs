@@ -17,7 +17,8 @@ namespace FrameWork.Data
         {
         }
 
-        public DbSet<busoppinformation> tbl_sys_busoppinformation { get; set; }
+        public DbSet<tbl_sys_information> tbl_sys_busoppinformation { get; set; }
+        public DbSet<tbl_sys_infomationcategory> tbl_sys_infomationcategory { get; set; }
 
         public virtual void Commit()
         {
